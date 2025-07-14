@@ -9,7 +9,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 $error = '';
 
 $valid_users = [
-    '***' => '***',
+    'admin' => 'user!@#',
 ];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
